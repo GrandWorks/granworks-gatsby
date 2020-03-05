@@ -284,8 +284,8 @@ render(){
                       {this.renderInstagram("double",0)}
                       {this.renderInstagram("single",2)}
                       {this.renderTweet(1)}
-                      {this.renderInstagram("double",3)}
                       {this.renderPost(1)}
+                      {this.renderInstagram("double",3)}
                       {this.renderTweet(2)}
                       {this.renderTweet(3)}
                       {this.renderInstagram("double",5)}

@@ -33,7 +33,7 @@ module.exports = {
       options: {
         typeName: `WPGraphQL`,
         fieldName: `wpgraphql`,
-        url: `http://localhost/grandworks-live/graphql`
+        url: `https://grandworks.co/graphql`
       }
     },
     {
