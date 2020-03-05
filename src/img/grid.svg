@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="195px" viewBox="0 0 1200 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>GRID</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Startpage" transform="translate(-285.000000, -3673.000000)" fill="#E9ECF0">
+            <g id="Footer" transform="translate(285.000000, 3673.000000)">
+                <g id="GRID">
+                    <rect id="Rectangle-6" x="0" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy-2" x="276" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy-2" x="307" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy-4" x="583" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy-4" x="615" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy-6" x="922" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy-6" x="891" y="0" width="2" height="260"></rect>
+                    <rect id="Rectangle-6-Copy" x="1198" y="0" width="2" height="260"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

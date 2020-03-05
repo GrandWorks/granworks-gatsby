@@ -1,0 +1,324 @@
+
+// Responsive
+
+@media screen and (max-width: 1520px) {
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oxygenos .art2 {width: 220px;}
+
+	// Homepage
+
+}
+// Gaps on 1367
+@media screen and (max-width: 1367px) {
+	#blog, #contact-form, #media-grid, #services, #social, #about-services, #grand-team, #talent, #four-zero-four, .brick, #about-intro, #our-services, #intro-contact {padding: 80px 0px;}
+
+	#intro .introducton h2 {font-size: 64px; line-height: normal; margin-bottom: 20px;}
+
+	#intro .featured-work-wrap .art-wrap .phone-front {height: 426px; width: 200px; bottom: -80px;}
+	#intro .featured-work-wrap .art-wrap .phone-back {height: 552px; width: 200px; bottom: -320px;}
+
+	#case-studies-intro .case-study-info-wrap .case-study-details-box .details-box .col .detail {padding: 10px 20px 10px 20px;}
+}
+
+// Height responsive
+@media screen and (max-height: 800px) {
+	#intro .featured-work-wrap .art-wrap .phone-front {bottom: -150px;}
+	#intro .featured-work-wrap .art-wrap .phone-back {bottom: -380px;}
+}
+
+// Tablet
+
+@media screen and (max-width: 1024px) {
+	#blog, #contact-form, #media-grid, #services, #social, #about-services, #grand-team, #talent, #four-zero-four, .brick, #about-intro, #our-services, #intro-contact {padding: 50px 0px;}
+
+	h1, h2 {font-size: 48px; line-height: 58px;}
+	h2.big {font-size: 120px; line-height: 140px; margin-top: -126px; margin-bottom: -10px;}
+	#archive-header h1 {font-size: 120px;}
+
+	#intro {}
+	#intro .sub p, #intro-contact .sub p, #about-intro .sub p {margin-bottom: 50px;}
+
+	#intro .content {padding: 40px;}
+	#intro .digital-space-wrap {margin-bottom: 40px;}
+	#intro .cell1, #intro .cell2 {padding: 0px;}
+	#intro p {margin-bottom: 40px;}
+
+	#intro .featured-work-wrap {height: auto; min-height: 200px;}
+	#intro .featured-work-wrap .featured-work-description-wrap {padding: 40px; width: 70%;}
+	#intro .featured-work-wrap .art-wrap {height: 100%; width: 30%; position: absolute; right: 0px;}
+	#intro .featured-work-wrap .art-wrap .phone-front {height: 213px; width: 100px; bottom: -40px; right: 20%;}
+	#intro .featured-work-wrap .art-wrap .phone-back {height: 276px; width: 100px; bottom: -230px; left: 20%;}
+
+	#about {margin-bottom: 76px;}
+	#about .cell {margin-bottom: 30px;}
+
+	#media-grid .cell {margin-bottom: 30px;}
+
+	#services h2 {margin-bottom: 40px;}
+	#services ul {margin-bottom: 30px;}
+	#services p.about {margin-top: 15px;}
+
+	#social h2 {margin-right: 30px; font-size: 32px;}
+
+	#contact-form .button {display: inline; width: auto;}
+
+	#services .about-text-desktop {display: none;}
+	#services .about-text-mobile {display: block;}
+
+	#archive-header .title {margin-bottom: 0px;}
+	#archive-header .title h2 {position: relative; left: 0px;}
+
+	#archive-header p {margin-bottom: 40px;}
+
+	.intro-image, .page-template-template-case-studies-oneplus .intro-image {height: 400px; margin-bottom: 0px;}
+
+	.page-template-template-case-studies-oneplus .intro-image .phone-front {right: 32%; height: 365px; width: 171px; bottom: -70px;}
+	.page-template-template-case-studies-oneplus .intro-image .phone-back {left: 32%; height: 403.5px; width: 146px; bottom: -200px;}
+
+	#project-tite-description {padding: 50px 15px 100px 15px;}
+	#case-studies-intro {height: auto; max-height: inherit; min-height: auto;}
+
+	#case-studies-intro .case-study-info-wrap .case-study-info {position: relative; bottom: 0px; padding: 30px;
+		p {margin: 0px; line-height: 21px; font-size: 16px;}
+		h4 {margin: 0px;}
+	}
+
+	#case-studies-intro .case-study-info-wrap .case-study-details-box {height: 180px; position: relative;}
+	#case-studies-intro .case-study-info-wrap .case-study-details-box .image-box {width: 180px; height: 180px;}
+	#case-studies-intro .case-study-info-wrap .case-study-details-box .details-box {width: calc(100% - 180px); height: 180px;}
+	#case-studies-intro .case-study-info-wrap .case-study-details-box .details-box .col {padding-top: 10px;}
+
+	#case-studies-content, .case-studies-content {padding: 100px 30px 50px 30px;}
+	#other-casestudies {padding: 50px 0px;}
+	#other-casestudies .navigation-container .wrap .arrow {display: none;}
+	.works-slider {margin-top: 50px;}
+
+	.page-template-template-case-studies-upcloud .intro-image {height: 720px;}
+	.page-template-template-case-studies-upcloud .intro-image .upcloud-cable {background-size: auto 100%; height: 100px;}
+	.page-template-template-case-studies-upcloud .intro-image .site-preview-wrap {height: 400px;}
+	#case-studies-content p, .case-studies-content p { line-height: 21px; font-size: 16px; margin-bottom: 50px;}
+	#case-studies-content h2, .case-studies-content h2 {margin-bottom: 30px;}
+	#case-studies-content video, .case-studies-content video {margin-bottom: 50px;}
+
+	.page-template-template-case-studies-digitalsky .intro-image {height: 400px;}
+	.page-template-template-case-studies-digitalsky .landscape-animation {bottom: 400px;}
+
+	.page-template-template-case-studies-oneplus-tv .intro-image {padding-top: 100px;}
+	.page-template-template-case-studies-oneplus-tv .intro-image .the-tv {max-width: 500px;}
+
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution {height: 400px; margin-top: 50px;}
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .wallpaper {height: 150px; max-width: 300px;}
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .title {position: relative; left: 0px; top: 0px;}
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .wallpaper1 {top: 150px;}
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .wallpaper2 {top: 200px;}
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .wallpaper3 {top: 250px;}
+
+	.page-template-template-case-studies-oneplus-tv #case-studies-content {padding-top: 50px;}
+
+	.page-template-template-case-studies-oxygen-os .intro-image {height: 100vh; margin-bottom: 0px;}
+
+	.page-template-template-case-studies-gant .intro-image {height: 600px; background-size: auto 100%; background-repeat: no-repeat; background-position: center; transform: none !important;}
+}
+
+
+
+
+
+
+
+// Mobile
+@media screen and (max-width: 39.9375em) {
+	.grid-container {padding: 0px;}
+
+	.grid-container:not(.full)>.grid-padding-x {margin: 0px;}
+
+	.grid-padding-x > .cell {padding-left: 20px; padding-right: 20px;}
+
+	body, p {font-size: 16px; line-height: 21px;}
+	p {margin-bottom: 20px;}
+	#single-post .the-post p {margin-bottom: 20px;}
+	.introducton h2 {font-size: 24px; line-height: 32px;}
+	h2 {font-size: 36px; line-height: 47px;}
+	h3 {font-size: 24px; line-height: 32px;}
+
+	h4 { font-size: 16px; line-height: 20px;}
+	h2.big {font-size: 50px; line-height: 65px; margin-left: 0px; margin-top: 0px; line-height: 78px;}
+
+	aside.main-site {width: 100%; height: 90px; position: relative;}
+	aside.main-site .grandworks {transform: none; width: 100%; display: block; text-align: left; padding: 20px 30px;}
+	article.site {padding: 0px;}
+	#intro {}
+	#intro .sub p {font-size: 16px; margin-bottom: 30px;}
+
+	#intro .introducton {display: block; padding-top: 40px;}
+	#intro .introducton .button {display: block;}
+	#intro .introducton h2 {font-size: 36px; line-height: 47px;}
+	#intro .introducton h2 a {display: inline-block; margin-top: 30px; line-height: 36px;}
+	#intro .sub img {display: none;}
+
+	#intro .sub .getintouch {display: none;}
+	#intro .sub .line {top: 8px;}
+	#intro .content {background-position: calc(50% + 38px) center; background-size: 380px auto; padding: 20px;}
+
+	#intro .featured-work-wrap .featured-work-description-wrap {width: 100%; padding: 20px;}
+	#intro .featured-work-wrap .art-wrap {position: relative;width: 100%; height: 200px;}
+	#intro .featured-work-wrap .art-wrap .phone-front {right: 30%;}
+	#intro .featured-work-wrap .art-wrap .phone-back {left: 30%; bottom: -275px;}
+	// #intro .introducton h2 span {display: block;}
+	// #intro .introducton h2 span a {display: inline;}
+
+	#other-casestudies, #other-casestudies.homepage {padding: 40px 0px;}
+	#other-casestudies .navigation-container {display: none;}
+	#other-casestudies h4 {display: none;}
+	.works-slider {margin-top: 40px; margin-left: -20px; margin-right: -20px;}
+	#other-casestudies .button {display: block; margin-top: 40px;}
+
+	#page-title {width: 100%; left: 0px;}
+	#our-services h2 {margin-bottom: 36px;}
+	#our-services .service-wrap {padding: 40px 20px;
+		&.one, &.two, &.three, &.four {background-image: none;}
+	}
+
+	#talent h2 {font-size: 36px; line-height: 42px;}
+	#about p {margin-bottom: 30px;}
+	#about {margin-bottom: 0px;}
+	#about .cell {margin-bottom: 0px;}
+	#project .telltime {height: 200px; padding: 15px;}
+
+	#about-services {margin-top: 60px;}
+
+	#contact-form .button {display: block; width: 100%;}
+
+	#media-grid {display: none;}
+	#media-grid .cell {margin-bottom: 0px;}
+	#media-grid .cell.blog, #media-grid .cell.instagram, #media-grid .cell.twitter {margin-bottom: 30px;}
+
+	#blog {padding: 40px 0px;
+		img {margin-bottom: 15px;}
+	}
+	#services {padding: 40px 0px;}
+	#services h2 {margin-bottom: 30px;}
+	#services ul {margin-bottom: 30px;}
+	#services ul li {font-size: 16px; line-height: 27px;}
+	#services p.about {font-size: 18px; line-height: 32px; margin: 0px;}
+	#social {padding: 30px 0px;
+		h2 {font-size: 21px; margin-right: 10px; margin-bottom: 0px;}
+	}
+	#footer {padding-bottom: 300px;}
+	#footer .wrap {padding: 15px 0px 0px 0px; text-align: center;}
+	#footer h4 {margin-top: 0px;}
+	#footer .wrap.mail h4 {text-align: center;}
+
+	#intro.contact-page .introducton span {display: block;}
+
+	// Nav
+	aside.main-site {display: none;}
+	#mobile-navigation {display: block;}
+	// home pattern
+	.home-intro-pattern { left: 0px; top: 0px; height: 600px; width: 100%; background-position: top -60px center; }
+
+	// Selected logos
+	.selected-clients-logos.home {margin-top: 40px; margin-bottom: 40px;}
+
+	.selected-clients-logos .logo-wrap ul {margin-bottom: 0px; display: block;}
+	.selected-clients-logos .logo-wrap ul li {width: 50%; float: left; height: 65px; display: flex; align-items: center; justify-content: center;}
+	.selected-clients-logos .logo-wrap ul li:first-child {padding: 0px;}
+	.selected-clients-logos .logo-wrap ul li:last-child {padding: 0px;}
+	.selected-clients-logos .logo-wrap ul li:nth-child(odd) {padding: 0px 20px 0px 0px;}
+	.selected-clients-logos .logo-wrap ul li:nth-child(even) {padding: 0px 0px 0px 20px;}
+
+	#mobile-navigation .mobile-menu .wrap .logo {padding: 40px 0px 30px 0px;}
+	#mobile-navigation .mobile-menu .wrap nav .menu li a {font-size: 56px; line-height: 72px;}
+
+	#grand-team h2.title {margin-bottom: 36px;}
+
+	h1.entry-title {font-size: 36px; line-height: 47px; margin-bottom: 20px;}
+	#single-post .single-header {padding-top: 30px;}
+	#single-post .single-header .excerpt p {font-size: 18px; line-height: 32px; margin-bottom: 0px;}
+
+	#single-post .the-post h3, #single-post .the-post h4, #single-post .the-post h5, #single-post .the-post h6 {max-width: 100%; margin-bottom: 20px;}
+	#single-post .the-post p {max-width: 100%;}
+
+	.user-avatar {width: 22px;}
+	#single-post .date h4 {font-size: 10px; line-height: 20px; margin-bottom: 20px;}
+
+	#comments #respond p.comment-form-comment {width: 100%; float: none; padding-right: 0px;}
+	#comments #respond p.comment-form-author, #comments #respond p.comment-form-email, #comments #respond p.comment-form-url {width: 100%; float: none;}
+	#comments #respond p.form-submit {width: 100%; float: none;}
+	#comments #respond p.comment-form-comment textarea {min-height: auto;}
+
+	.intro-image, .page-template-template-case-studies-oneplus .intro-image {height: 400px; margin: 0px;}
+	.page-template-template-case-studies-oneplus .intro-image .phone-front {right: 15%;}
+	.page-template-template-case-studies-oneplus .intro-image .phone-back {left: 15%;}
+
+	#case-studies-intro {height: auto; max-height: inherit; min-height: auto;}
+	#case-studies-intro .case-study-info-wrap {height: auto; }
+	#case-studies-intro .case-study-info-wrap .case-study-details-box {position: relative; height: 250px;}
+	#case-studies-intro .case-study-info-wrap .case-study-details-box .image-box, .page-template-template-case-studies-oneplus #case-studies-intro .case-study-info-wrap .case-study-details-box .image-box {width: 100%; height: 100px; background-size: auto 60px;}
+	#case-studies-intro .case-study-info-wrap .case-study-details-box .details-box {width: 100%; height: 150px;}
+
+	#case-studies-content, .case-studies-content {padding: 50px 10px;}
+	#case-studies-content p, .case-studies-content p {font-size: 16px; line-height: 21px; margin-bottom: 30px;}
+	#case-studies-content .grid-padding-x > .cell {padding-left: 10px; padding-right: 10px;}
+	#case-studies-content .rellax { transform: translate3d(0,0,0) !important; }
+
+	.page-template-template-case-studies-upcloud .intro-image .site-preview-wrap {height: 300px; padding: 0px 30px 30px 30px;}
+	.page-template-template-case-studies-upcloud .intro-image {height: auto;}
+	#upcloud-casestudies-fullbg .wrap {height: 480px; width: 4980px;}
+	#upcloud-casestudies-fullbg {height: 480px;}
+
+	.page-template-template-case-studies-upcloud #project-tite-description {padding: 50px 15px;}
+	.page-template-template-case-studies-upcloud #split-boxes .rellax { transform: translate3d(0,0,0) !important; }
+	.page-template-template-case-studies-upcloud .small-cables {height: 100px; background-size: auto 100%;}
+
+	.page-template-template-case-studies-digitalsky #case-studies-intro .case-study-info-wrap .case-study-details-box .image-box {background-size: auto 85px;}
+	.page-template-template-case-studies-digitalsky .landscape-animation {background-size: 986px 66.5px; height: 66.5px; bottom: 500px;}
+
+	.page-template-template-case-studies-oneplus-tv #case-studies-intro .case-study-info-wrap .case-study-details-box .image-box {background-size: auto 60px;}
+	.page-template-template-case-studies-oneplus-tv #project-tite-description {padding: 50px 15px;}
+
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .wallpaper2 {left: 50px;}
+	.page-template-template-case-studies-oneplus-tv #case-studies-content .huge-resolution .wallpaper3 {left: 100px; right: auto;}
+
+	.page-template-template-case-studies-oxygen-os .intro-image {height: 500px;}
+	.page-template-template-case-studies-oxygen-os .intro-image .layer3 {background-size: 50%; top: 15px;}
+	.page-template-template-case-studies-oxygen-os #case-studies-intro .case-study-info-wrap .case-study-details-box .image-box {background-size: 60px;}
+
+	#oxygen-fullbg {height: 393.5px;}
+	#oxygen-fullbg .wrap {height: 393.5px; width: 3834px;}
+	.page-template-template-case-studies-oxygen-os #work-life .text {margin-bottom: 0px;}
+	#case-studies-content img, .case-studies-content img {margin-bottom: 20px;}
+
+	.page-template-template-case-studies-gant #case-studies-intro .case-study-info-wrap .case-study-details-box .image-box {display: none;}
+	.page-template-template-case-studies-gant #case-studies-intro .case-study-info-wrap .case-study-details-box {height: 150px;}
+	#split-boxes .right-wrap {margin-top: 0px;}
+	.page-template-template-case-studies-gant #gant-images .box {box-shadow: 0px 2px 34px 0px rgba(0, 0, 0, 0.14);}
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oneplus, .page-template-template-case-studies #case-studies-content .works-wrap .work.oxygenos, .page-template-template-case-studies #case-studies-content .works-wrap .work.upcloud, .page-template-template-case-studies #case-studies-content .works-wrap .work.oneplustv,
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.digitalsky {padding: 30px;}
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work {margin-bottom: 40px; height: 370px;}
+
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oneplus .phone {height: 256px; width: 400.5px; top: 0px; position: relative; }
+	.page-template-template-case-studies #case-studies-content .works-wrap .work .grid-x, .page-template-template-case-studies #case-studies-content .works-wrap .work .cell {height: auto;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work p {display: none;}
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work .description .wrap {display: block; width: 100%; text-align: center;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oxygenos .art {height: 256px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oxygenos .art1 {width: 115px; left: -10px; bottom: 100px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oxygenos .art3 {width: 80px; right: -10px; bottom: 90px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oxygenos .art2 {width: 180px; left: calc(50% - 90px); bottom: 50px;}
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.upcloud .art {height: 256px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.upcloud .art .wrap {width: 100%; position: relative; padding: 0px; right: 0px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.upcloud .art .wrap img {bottom: 30px;}
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oneplustv .art {height: 256px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.oneplustv .art .the-tv-wrap {width: 100%; bottom: 10px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.right .description {padding-left: 10px;}
+
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.digitalsky .art {height: 256px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.digitalsky .landscape-animation {bottom: 100px;}
+	.page-template-template-case-studies #case-studies-content .works-wrap .work.digitalsky .art .wrap {top: -55px;}
+
+}

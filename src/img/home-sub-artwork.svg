@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="34px" viewBox="0 0 152 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Startpage-Copy" transform="translate(-1334.000000, -136.000000)" fill-rule="nonzero">
+            <g id="Group-17" transform="translate(1334.000000, 136.000000)">
+                <g id="Group-5">
+                    <path d="M134.533713,34 C143.861189,34 151.422602,26.3888407 151.422602,17 C151.422602,7.61115925 143.861189,0 134.533713,0 L134.533713,34 Z" id="Oval" fill="#EBF2FB"></path>
+                    <path d="M117.789174,34 C127.11665,34 134.678063,26.3888407 134.678063,17 C134.678063,7.61115925 127.11665,0 117.789174,0 L117.789174,34 Z" id="Oval-Copy-2" fill="#F56A8E"></path>
+                    <path d="M101.044634,34 C110.37211,34 117.933523,26.3888407 117.933523,17 C117.933523,7.61115925 110.37211,0 101.044634,0 L101.044634,34 Z" id="Oval-Copy-3" fill="#EBF2FB" transform="translate(109.489079, 17.000000) rotate(-180.000000) translate(-109.489079, -17.000000) "></path>
+                    <polygon id="Rectangle" fill="#F2C8B5" points="67.5555556 0 101.333333 34 67.5555556 34"></polygon>
+                    <polygon id="Rectangle-Copy" fill="#F56A8E" points="33.7777778 0 67.5555556 34 33.7777778 34"></polygon>
+                    <polygon id="Rectangle-Copy-2" fill="#252C40" points="0 0 33.7777778 34 0 34"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="300px" viewBox="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="The-Studio" transform="translate(-1235.000000, -1291.000000)" fill-rule="nonzero">
+            <g id="GANT" transform="translate(285.000000, 1234.000000)">
+                <g id="Screenshot-2018-12-31-at-14.52.16">
+                    <g id="Group-6" transform="translate(950.000000, 57.000000)">
+                        <circle id="Oval" fill="#F56A8E" cx="50" cy="50" r="50"></circle>
+                        <rect id="Rectangle" fill="#FFFFFF" x="100" y="100" width="100" height="100"></rect>
+                        <polygon id="Rectangle-Copy-4" fill="#252C40" points="200 200 200 300 100 300"></polygon>
+                        <polygon id="Rectangle-Copy-5" fill="#4016DA" points="100 200 100 300 0 300"></polygon>
+                        <path d="M150,100 L150,0 C122.385763,0 100,22.3857625 100,50 C100,77.6142375 122.385763,100 150,100 Z" id="Oval-Copy-2" fill="#4016DA"></path>
+                        <path d="M200,100 L200,0 C172.385763,0 150,22.3857625 150,50 C150,77.6142375 172.385763,100 200,100 Z" id="Oval-Copy-3" fill="#F2C8B5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
