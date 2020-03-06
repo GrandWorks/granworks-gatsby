@@ -145,7 +145,7 @@ class IndexPage extends React.Component{
     {
       return(
         <div class="large-6 medium-6 cell item blog">
-          <a href={posts[index].post_url}>
+          <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={`/journal/${posts[index].slug}`}>
             <div class="wrap">
 
               <div class="image">
@@ -177,7 +177,7 @@ class IndexPage extends React.Component{
               </div>
 
             </div>
-          </a>
+          </AniLink>
         </div>
       )
     }
@@ -218,8 +218,8 @@ render(){
                         </div>
                       </div>
 
-                      <a href="<?php echo site_url(); ?>/about/" className="button small hide-for-small-only" data-sal="slide-up" data-sal-easing="easeOutCubic">Learn more about GrandWorks</a>
-                      <a href="<?php echo site_url(); ?>/about/" className="button small show-for-small-only">Learn more</a>
+                      <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/case-studies/oneplus"} className="button small hide-for-small-only" data-sal="slide-up" data-sal-easing="easeOutCubic">Learn more about GrandWorks</AniLink>
+                      <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/case-studies/oneplus"} className="button small show-for-small-only">Learn more</AniLink>
 
                     </div> 
 
