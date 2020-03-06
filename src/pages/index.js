@@ -1,7 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import ReactFitText from "react-fittext";
+import ReactFitText from "react-fittext"
+import Masonry from 'react-masonry-css'
+
 import RecentWork from '../components/RecentWork'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import digitaSpace from '../../static/digitalspace.svg'
@@ -32,8 +34,10 @@ class IndexPage extends React.Component{
     .then(res=>res.json())
     .then(result=>{
       this.setState({...this.state,instagramFeeds:[...result.insta_feeds], twitterFeeds:[...result.tweets], postFeeds:[...result.posts]},
-        ()=>this.setState({isFetching:false})
-        )
+        ()=>{
+          this.setState({isFetching:false})
+        }
+      )
     });
   }
 
@@ -278,18 +282,26 @@ render(){
                         <h2>Newsfeed</h2>
                       </div>
                     </div>
-                    <div class="grid-x grid-padding-x grid" data-aos="fade-up">
+                    {/* <div class="grid-x grid-padding-x grid" data-aos="fade-up"> */}
+                    <Masonry 
+                      className="grid-x grid-padding-x my-masonry-grid" 
+                      columnClassName="masonry-column"
+                      breakpointCols={{default: 2, 800: 2}} 
+                      data-aos="fade-up"
+                    >
                       {this.renderTweet(0)}
                       {this.renderPost(0)}
                       {this.renderInstagram("double",0)}
                       {this.renderInstagram("single",2)}
-                      {this.renderTweet(1)}
+                      {/* {this.renderTweet(1)} */}
                       {this.renderPost(1)}
-                      {this.renderInstagram("double",3)}
-                      {this.renderTweet(2)}
+                      {this.renderInstagram("double",4)}
+                      {this.renderTweet(1)}
                       {this.renderTweet(3)}
-                      {this.renderInstagram("double",5)}
-                    </div>
+                      {this.renderInstagram("double",5)} 
+                    </Masonry>
+                         
+                    {/* </div> */}
                   </div>
                 </div>
             </section>
