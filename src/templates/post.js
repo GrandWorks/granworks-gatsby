@@ -2,9 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 
-const post = ({data, pageContext}) => {
+const post = ({data, pageContext,location}) => {
     return (
-        <Layout>
+        <>
+        <Layout location={location}>
           <section id="single-post">
             <div className="single-header" style={{backgroundImage : 'url('+data.wpgraphql.post.featuredImage.sourceUrl+')'}} >
                 <div className="grid-container">
@@ -51,6 +52,7 @@ const post = ({data, pageContext}) => {
             </section>
             
         </Layout>
+        </>
     );
 }
 

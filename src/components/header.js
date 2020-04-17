@@ -6,6 +6,7 @@ import closeMenuSvg from '../../static/close-menu.svg'
 import logoShapeSvg from '../../static/logo-shape.svg'
 import openMenuSvg from '../../static/open-menu.svg'
 import grandworksGray from '../../static/grandworks_grey.svg'
+
 class Header extends Component {
 
   constructor(props)

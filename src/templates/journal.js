@@ -5,7 +5,7 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 export class Journal extends Component {
     render() {
         const journals = this.props.pageContext.journal;
-        console.log(journals);
+        
         const firstJournal = journals[0];
         const firstPostStyle = {
             backgroundImage: `url(${journals[0].featuredImage.sourceUrl})`
@@ -13,8 +13,8 @@ export class Journal extends Component {
         const posts = journals.map((journal,index)=>{
             if(index!=0)
             {
-                return (
-                        <div id={`"post-${journal.id}"`} className="medium-6 cell blog">
+                return (  
+                        <div key={`"post-${journal.id}"`} id={`"post-${journal.id}"`} className="medium-6 cell blog">
                             <div className="wrap">
                                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={`journal/${journal.slug}`} >
                                     <div className="image">
@@ -29,7 +29,12 @@ export class Journal extends Component {
                                         </div>
                                         {journal.author.name}
                                         &nbsp;&bull;&nbsp;
-                                        {journal.date}
+                                        {/* {journal.date} */}
+                                        {new Intl.DateTimeFormat("en-GB",{
+                                            year: "numeric",
+                                            month: "long",
+                                            day: "2-digit"
+                                        }).format(new Date(journal.date))}
                                     </h4>
                                     </div>
                                     <div className="title">
@@ -51,7 +56,8 @@ export class Journal extends Component {
             }
         });
         return (
-            <Layout extraClassNames="">
+            <>
+            <Layout extraClassNames="" location={this.props.location}>
                 <section id="archive-header" className="brick" style={firstPostStyle}>
                     <div className="grid-container">
                         <div className="wrap">
@@ -68,7 +74,12 @@ export class Journal extends Component {
                                     </div>
                                     {firstJournal.author.name}
                                     &nbsp;&bull;&nbsp;
-                                    {firstJournal.date}
+                                    {/* {firstJournal.date} */}
+                                    {new Intl.DateTimeFormat("en-GB",{
+                                            year: "numeric",
+                                            month: "long",
+                                            day: "2-digit"
+                                    }).format(new Date(firstJournal.date))}
                                 </h4>
                                 </div>
                             </div>
@@ -107,6 +118,7 @@ export class Journal extends Component {
                     </div>
                 </section>
             </Layout>
+            </>
         );
     }
 }

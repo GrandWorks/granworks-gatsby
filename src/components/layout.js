@@ -7,14 +7,15 @@
 
 import React from "react"
 // import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import {Helmet} from "react-helmet"
 import Header from "./header"
 import Footer from "./Footer"
+import Seo from "./seo.js"
 
-const Layout = ({ children,extraClassNames }) => { 
+const Layout = ({ children,extraClassNames,location }) => { 
   return (
     <>
+      <Seo location={location}/>
       <Helmet>
           
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />

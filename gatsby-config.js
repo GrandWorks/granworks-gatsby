@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
     {
@@ -33,7 +33,7 @@ module.exports = {
       options: {
         typeName: `WPGraphQL`,
         fieldName: `wpgraphql`,
-        url: `https://grandworks.co/graphql`
+        url: `http://localhost/grandworks-live/graphql`
       }
     },
     {
@@ -48,7 +48,27 @@ module.exports = {
       resolve: `gatsby-plugin-scroll-reveal`,
     },
     `gatsby-plugin-transition-link`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-source-wordpress",
+      options:{
+        baseUrl: "localhost/grandworks-live",
+        protocol: "http",
+        restApiRoutePrefix: "wp-json",
+        hostingWPCOM: false,
+        useACF: false,
+        perPage: 100,
+        includedRoutes: [
+          "**/categories",
+          "**/posts",
+          "**/pages",
+          "**/media",
+          "**/tags",
+          "**/taxonomies",
+          "**/users",
+        ],
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

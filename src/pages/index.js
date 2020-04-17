@@ -185,9 +185,8 @@ class IndexPage extends React.Component{
   }
 
 render(){
-    
       return(
-        <Layout>
+        <Layout location={this.props.location}>
             <section id="intro" >
               <div className="grid-x">
                 <div className="large-8 cell">
@@ -295,7 +294,7 @@ render(){
                       {this.renderInstagram("single",2)}
                       {/* {this.renderTweet(1)} */}
                       {this.renderPost(1)}
-                      {this.renderInstagram("double",4)}
+                      {this.renderInstagram("double",3)}
                       {this.renderTweet(1)}
                       {this.renderTweet(3)}
                       {this.renderInstagram("double",5)} 
