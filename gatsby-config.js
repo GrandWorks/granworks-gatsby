@@ -46,6 +46,11 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-scroll-reveal`,
+      options:{
+        once: true,
+        disable: false,
+        threshold: 0.5
+      }
     },
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-sass`,
@@ -65,7 +70,6 @@ module.exports = {
           "**/media",
           "**/tags",
           "**/taxonomies",
-          "**/users",
         ],
       }
     }

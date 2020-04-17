@@ -4,17 +4,17 @@ const Footer = () => {
     return (
         <footer id="site-footer">
             <section id="social">
-            <div className="grid-container">
-                <div>
-                <div className="grid-x grid-padding-x">
-                <div className="large-12 cell">
-                    <a href="https://www.facebook.com/grandworksco" target="_blank" rel="noopener noreferrer"><h2 data-aos="fade-up" data-aos-offset="-300" data-aos-anchor="#social" data-aos-anchor-placement="top">Facebook.</h2></a>
-                    <a href="https://www.instagram.com/grandworksco" target="_blank" rel="noopener noreferrer"><h2 data-aos="fade-up" data-aos-offset="-300" data-aos-anchor="#social" data-aos-anchor-placement="top">Instagram.</h2></a>
-                    <a href="https://twitter.com/grandworksco" target="_blank" rel="noopener noreferrer"><h2 data-aos="fade-up" data-aos-offset="-300" data-aos-anchor="#social" data-aos-anchor-placement="top">Twitter.</h2></a>
+                <div className="grid-container">
+                    <div>
+                    <div className="grid-x grid-padding-x">
+                    <div className="large-12 cell" data-sal="slide-up" data-sal-delay="300" data-sal-duration="500" data-sal-easing="easeOutQuint">
+                        <a href="https://www.facebook.com/grandworksco" target="_blank" rel="noopener noreferrer"><h2 data-aos="fade-up" data-aos-offset="-300" data-aos-anchor="#social" data-aos-anchor-placement="top">Facebook.</h2></a>
+                        <a href="https://www.instagram.com/grandworksco" target="_blank" rel="noopener noreferrer"><h2 data-aos="fade-up" data-aos-offset="-300" data-aos-anchor="#social" data-aos-anchor-placement="top">Instagram.</h2></a>
+                        <a href="https://twitter.com/grandworksco" target="_blank" rel="noopener noreferrer"><h2 data-aos="fade-up" data-aos-offset="-300" data-aos-anchor="#social" data-aos-anchor-placement="top">Twitter.</h2></a>
+                    </div>
+                    </div>
                 </div>
                 </div>
-            </div>
-            </div>
             </section>
 
             <section id="contact-form">
