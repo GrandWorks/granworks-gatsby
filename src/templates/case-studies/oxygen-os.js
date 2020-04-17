@@ -22,7 +22,7 @@ class OxygenOs extends React.Component{
 
     render(){
         return(
-            <Layout extraClassNames="page-template-template-case-studies-oxygen-os">
+            <Layout location={this.props.location} extraClassNames="page-template-template-case-studies-oxygen-os">
                 <style dangerouslySetInnerHTML={{__html: `
                     #page-title text {font-size: 10.5px;}
                 `}} />

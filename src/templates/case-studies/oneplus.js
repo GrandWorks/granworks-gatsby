@@ -21,7 +21,7 @@ class OnePlus extends Component{
     }
 render(){
         return(
-            <Layout extraClassNames="page-template-template-case-studies-oneplus">
+            <Layout location={this.props.location} extraClassNames="page-template-template-case-studies-oneplus">
                 <style dangerouslySetInnerHTML={{__html: `
                     #page-title text {font-size: 13px;}
                 `}} />

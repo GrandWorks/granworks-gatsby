@@ -23,7 +23,7 @@ import wazid from '../../static/team/wazid.jpg'
 export class About extends Component {
     render() {
         return (
-            <Layout extraClassNames="page-template-template-about">
+            <Layout extraClassNames="page-template-template-about" location={this.props.location}>
                 <style dangerouslySetInnerHTML={{__html: `
                     #page-title text {font-size: 16px;}
                 `}} />

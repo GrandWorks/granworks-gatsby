@@ -44,7 +44,7 @@ class DigitalSky extends React.Component {
 
 render(){
     return(
-        <Layout extraClassNames="page-template-template-case-studies-digitalsky">
+        <Layout location={this.props.location} extraClassNames="page-template-template-case-studies-digitalsky">
             <style dangerouslySetInnerHTML={{__html: `
                 #page-title text {font-size: 11px;}
             `}} />

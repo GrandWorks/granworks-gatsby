@@ -71,7 +71,7 @@ class OnePlusTv extends Component {
 
     render(){
         return(
-            <Layout extraClassNames="page-template-template-case-studies-oneplus-tv">
+            <Layout location={this.props.location} extraClassNames="page-template-template-case-studies-oneplus-tv">
                 <style dangerouslySetInnerHTML={{__html: `
                     #page-title text {font-size: 9.7px;}
                 `}} />

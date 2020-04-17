@@ -15,13 +15,13 @@ import droneGIF from '../../../static/case-studies/digitalsky/drone.gif'
 export class CaseStudies extends Component {
     render() {
         return (
-            <Layout extraClassNames="page-template-template-case-studies">
+            <Layout location={this.props.location} extraClassNames="page-template-template-case-studies">
                 <style dangerouslySetInnerHTML={{__html: `
                     #page-title text {font-size: 17px;}
                 `}} />
                 <div id="page-title">
                     <svg viewBox="0 0 61 16">
-                        <text x="50%" y="14" text-anchor="middle">WORKS</text>
+                        <text x="50%" y="14" textAnchor="middle">WORKS</text>
                     </svg>
                 </div>
                 <section id="case-studies-content">

@@ -34,18 +34,18 @@ render(){
       </AniLink>
       <div className="sidebar-navigation">
       <nav>
-          <div class="menu-main-navigation-container">
-            <ul id="primary-menu" class="menu">
-              <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
+          <div className="menu-main-navigation-container">
+            <ul id="primary-menu" className="menu">
+              <li id="menu-item-95" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/about"}>About</AniLink>
               </li>
-              <li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253">
+              <li id="menu-item-253" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-253">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/case-studies"}>Works</AniLink>
               </li>
-              <li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210">
+              <li id="menu-item-210" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-210">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/journal"} >Journal</AniLink>
               </li>
-              <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
+              <li id="menu-item-102" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/contact"}>Contact</AniLink>
               </li>
             </ul>
@@ -63,18 +63,18 @@ render(){
           <img src={grandworksGray} alt="" />
         </div>
         <nav>
-          <div class="menu-main-navigation-container">
-            <ul id="primary-menu" class="menu">
-              <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
+          <div className="menu-main-navigation-container">
+            <ul id="primary-menu" className="menu">
+              <li id="menu-item-95" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/about"}>About</AniLink>
               </li>
-              <li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253">
+              <li id="menu-item-253" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-253">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/case-studies"}>Works</AniLink>
               </li>
-              <li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210">
+              <li id="menu-item-210" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-210">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/journal"} >Journal</AniLink>
               </li>
-              <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
+              <li id="menu-item-102" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
                 <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/contact"}>Contact</AniLink>
               </li>
             </ul>

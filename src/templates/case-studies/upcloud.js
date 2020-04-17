@@ -42,7 +42,7 @@ class Upcloud extends React.Component {
 
     render(){
         return(
-            <Layout extraClassNames="page-template-template-case-studies-upcloud">
+            <Layout location={this.props.location} extraClassNames="page-template-template-case-studies-upcloud">
                  <style dangerouslySetInnerHTML={{__html: `
                     #page-title text {font-size: 13px;}
                 `}} />

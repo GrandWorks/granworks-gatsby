@@ -30,7 +30,7 @@ class IndexPage extends React.Component{
   }
 
   componentDidMount(){
-    fetch("http://localhost/grandworks-live/wp-json/grandfeed/feeds")
+    fetch("https://grandworks.co/wp-json/grandfeed/feeds")
     .then(res=>res.json())
     .then(result=>{
       this.setState({...this.state,instagramFeeds:[...result.insta_feeds], twitterFeeds:[...result.tweets], postFeeds:[...result.posts]},
@@ -54,12 +54,12 @@ class IndexPage extends React.Component{
     {
       const date = new Date(tweet[index].tweet_date);
       return (
-        <div class="large-6 medium-6 cell item twitter" >
+        <div className="large-6 medium-6 cell item twitter" >
           <a href={tweet[index].tweet_url} target="_blank">
-            <div class="wrap">
-                <div class="date"><h4>{date.getDate() + " "+ this.getMonth(date.getMonth())+" "+ date.getFullYear()}</h4></div>
-                <div class="tweet">
-                  <p class="big">{tweet[index].tweet_text}</p>
+            <div className="wrap">
+                <div className="date"><h4>{date.getDate() + " "+ this.getMonth(date.getMonth())+" "+ date.getFullYear()}</h4></div>
+                <div className="tweet">
+                  <p className="big">{tweet[index].tweet_text}</p>
                 </div>
               </div>
           </a>
@@ -73,19 +73,18 @@ class IndexPage extends React.Component{
   renderInstagram(type="single",index=0)
   {
       const instagram = this.state.instagramFeeds;
-      console.log("running");
       if(this.state.isFetching==false){
         if(type=="double")
         {
           return(
-              <div class="large-6 medium-6 cell item two-blocks">
+              <div className="large-6 medium-6 cell item two-blocks">
 
-              <div class="grid-x grid-padding-x">
+              <div className="grid-x grid-padding-x">
 
-                <div class="large-6 medium-6 cell instagram">
+                <div className="large-6 medium-6 cell instagram">
                   <a href={instagram[index].feed_url} target="_blank">
 
-                    <div class="wrap" style={{backgroundImage:`url(${instagram[index].image_url})`}}>
+                    <div className="wrap" style={{backgroundImage:`url(${instagram[index].image_url})`}}>
 
                       <img src={tempImage} alt="" />
 
@@ -97,11 +96,11 @@ class IndexPage extends React.Component{
 
 
 
-                <div class="large-6 medium-6 cell instagram">
+                <div className="large-6 medium-6 cell instagram">
 
                   <a href={instagram[index+1].feed_url} target="_blank">
 
-                    <div class="wrap" style={{backgroundImage:`url(${instagram[index+1].image_url})`}}>
+                    <div className="wrap" style={{backgroundImage:`url(${instagram[index+1].image_url})`}}>
 
                       <img src={tempImage} alt="" />
 
@@ -119,11 +118,11 @@ class IndexPage extends React.Component{
         else
         {
           return(
-              <div class="large-6 medium-6 cell item instagram">
+              <div className="large-6 medium-6 cell item instagram">
 
                 <a href={instagram[index+1].feed_url} target="_blank">
 
-                  <div class="wrap" style={{backgroundImage:`url(${instagram[index+1].image_url})`}}>
+                  <div className="wrap" style={{backgroundImage:`url(${instagram[index+1].image_url})`}}>
 
                     <img src={tempImage} alt="" />
 
@@ -144,31 +143,31 @@ class IndexPage extends React.Component{
     if(this.state.isFetching!=true)
     {
       return(
-        <div class="large-6 medium-6 cell item blog">
+        <div className="large-6 medium-6 cell item blog">
           <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={`/journal/${posts[index].slug}`}>
-            <div class="wrap">
+            <div className="wrap">
 
-              <div class="image">
+              <div className="image">
 
                 <img src={posts[index].featured_image} alt="" />
 
               </div>
 
-              <div class="post">
+              <div className="post">
 
-              <div class="date">
+              <div className="date">
 
                 <h4>{posts[index].date}</h4>
 
               </div>
 
-              <div class="title">
+              <div className="title">
 
                 <h3>{posts[index].title}</h3>
 
               </div>
 
-              <div class="excerpt">
+              <div className="excerpt">
 
                 <p>{posts[index].excerpt}</p>
 
@@ -274,14 +273,14 @@ render(){
             </section>
 
             <section id="media-grid">
-              <div class="grid-container">
+              <div className="grid-container">
                   <div>
-                    <div class="grid-x grid-padding-x">
-                      <div class="large-12 cell">
+                    <div className="grid-x grid-padding-x">
+                      <div className="large-12 cell">
                         <h2>Newsfeed</h2>
                       </div>
                     </div>
-                    {/* <div class="grid-x grid-padding-x grid" data-aos="fade-up"> */}
+                    {/* <div className="grid-x grid-padding-x grid" data-aos="fade-up"> */}
                     <Masonry 
                       className="grid-x grid-padding-x my-masonry-grid" 
                       columnClassName="masonry-column"

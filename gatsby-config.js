@@ -33,7 +33,7 @@ module.exports = {
       options: {
         typeName: `WPGraphQL`,
         fieldName: `wpgraphql`,
-        url: `http://localhost/grandworks-live/graphql`
+        url: `https://grandworks.co/graphql`
       }
     },
     {
@@ -52,8 +52,8 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options:{
-        baseUrl: "localhost/grandworks-live",
-        protocol: "http",
+        baseUrl: "grandworks.co",
+        protocol: "https",
         restApiRoutePrefix: "wp-json",
         hostingWPCOM: false,
         useACF: false,
