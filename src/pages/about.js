@@ -40,7 +40,7 @@ export class About extends Component {
                         <div class="sub">
                             <p><img src={heartSvg} alt="" />Let’s be friends!</p>
                         </div>
-                        <div class="introducton" data-aos="flip-in-diag-2-br">
+                        <div class="introducton" data-sal="flip-right" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="200">
                             <h2>We’re a passionate group who loves to create something better for the world we live in.</h2>
                         </div>
                         </div>
@@ -51,11 +51,11 @@ export class About extends Component {
                 <section id="about">
                     <div class="grid-container">
                         <div class="grid-x grid-padding-x">
-                            <div class="large-6 cell" data-aos="fade-up">
+                            <div class="large-6 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="200">
                                 <h4>CULTURE</h4>
                                 <p>Our team works internationally and remotely. Our office is based out of beautiful Goa, India. We retain strong ties to Scandinavia and want to bring the open working culture to India. We are a fun and adventurous group who likes new challenges!</p>
                             </div>
-                            <div class="large-6 cell" data-aos="fade-up">
+                            <div class="large-6 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="200">
                                 <h4>CLIENTS</h4>
                                 <p>We like to retain long-lasting relationships with a selected
                         group of clients, where we can grow together to reach new goals.
@@ -127,10 +127,10 @@ export class About extends Component {
                         <div>
                         <div class="grid-x grid-padding-x">
                             <div class="large-12 cell">
-                            <h2 class="title" data-aos="fade-up">The Grand Team</h2>
+                            <h2 class="title" data-sal="slide-up" data-sal-duration="300" data-sal-easing="easeOutCirc">The Grand Team</h2>
                             </div>
 
-                            <div class="large-6 medium-6 cell" data-aos="fade-up">
+                            <div class="large-6 medium-6 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc">
                             <div class="image">
                                 <img src={hampus} alt="" />
                             </div>
@@ -140,7 +140,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-6 medium-6 cell" data-aos="fade-up" data-aos-delay="200">
+                            <div class="large-6 medium-6 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="200">
                             <div class="image">
                                 <img src={sidd} alt="" />
                             </div>
@@ -150,7 +150,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="100">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="100">
                             <div class="image">
                                 <img src={kimberly} alt="" />
                             </div>
@@ -160,7 +160,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="300">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="300">
                             <div class="image">
                                 <img src={wazid} alt="" />
                             </div>
@@ -170,7 +170,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="500">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="500">
                             <div class="image">
                                 <img src={krishna} alt="" />
                             </div>
@@ -180,7 +180,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="100">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="100">
                             <div class="image">
                                 <img src={cedan} alt="" />
                             </div>
@@ -190,7 +190,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="300">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="300">
                             <div class="image">
                                 <img src={snehal} alt="" />
                             </div>
@@ -200,7 +200,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="500">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="500">
                             <div class="image">
                                 <img src={aishwarya} alt="" />
                             </div>
@@ -210,7 +210,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="100">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="100">
                             <div class="image">
                                 <img src={prashant} alt="" />
                             </div>
@@ -220,7 +220,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="300">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="300">
                             <div class="image">
                                 <img src={aby} alt="" />
                             </div>
@@ -230,7 +230,7 @@ export class About extends Component {
                             </div>
                             </div>
 
-                            <div class="large-4 medium-4 cell" data-aos="fade-up" data-aos-delay="500">
+                            <div class="large-4 medium-4 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc" data-sal-delay="500">
                             <div class="image">
                                 <img src={hire} alt="" />
                             </div>
@@ -244,7 +244,7 @@ export class About extends Component {
                     </div>
                 </section>
                 <section id="talent">
-                    <div class="grid-container" data-aos="fade-up">
+                    <div class="grid-container" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc">
                         <div>
                         <div class="grid-x grid-padding-x">
                             <div class="large-12 cell">
@@ -258,7 +258,7 @@ export class About extends Component {
                             <div class="large-6 cell">
                             <p>If you are a Project Manager, Developer or Designer who have at least 5+ years of experience in your field, and feel that you want to work on new exciting projects, feel free to apply now.</p>
                             </div>
-                            <div class="large-3 cell" data-aos="fade-up">
+                            <div class="large-3 cell" data-sal="slide-up" data-sal-duration="500" data-sal-easing="easeOutCirc">
                             <a href="#contact-form" class="button">Apply Now</a>
                             </div>
                         </div>

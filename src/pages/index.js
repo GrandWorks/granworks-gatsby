@@ -189,7 +189,7 @@ render(){
             <section id="intro" >
               <div className="grid-x">
                 <div className="large-8 cell">
-                  <div className="content" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutQuint">
+                  <div className="content" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutCirc">
                     <div className="sub">
                       <div className="grandworks"><h4>GrandWorks</h4></div>
                       <div className="line"></div>
@@ -206,11 +206,11 @@ render(){
                         <img src={digitaSpace} alt="" />
                       </div>
                       <div className="grid-x">
-                        <div className="large-6 cell cell1" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutQuint">
+                        <div className="large-6 cell cell1" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutCirc">
                           <h4>COMPANY</h4>
                           <p>Our team works with Spotify, OnePlus, UpCloud, IndiaStack and other great businesses from around the world. We’re working out of picturesque Portuguese villa in Goa, India.</p>
                         </div>
-                        <div className="large-6 cell cell2" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutQuint">
+                        <div className="large-6 cell cell2" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutCirc">
                           <h4>EXPERTISE</h4>
                           <p>Our team members have over ten years of expertise in fields like e-commerce, user interface design, branding and mobile development.</p>
                         </div>
@@ -305,7 +305,7 @@ render(){
 
 
             <section id="services">
-              <div className="grid-container" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutQuint">
+              <div className="grid-container" data-sal="slide-up" data-sal-duration="350" data-sal-easing="easeOutCirc">
                 <div>
 
               <div className="grid-x grid-padding-x">

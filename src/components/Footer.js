@@ -18,7 +18,7 @@ const Footer = () => {
             </section>
 
             <section id="contact-form">
-            <div className="grid-container" data-aos="fade-up" data-aos-offset="-300">
+            <div className="grid-container" data-sal="slide-up" data-sal-delay="300" data-sal-duration="500" data-sal-easing="easeOutQuint">
                 <div>
                 <div className="form-wrap">
 

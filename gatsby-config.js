@@ -49,7 +49,7 @@ module.exports = {
       options:{
         once: true,
         disable: false,
-        threshold: 0.5
+        threshold: 0.2
       }
     },
     `gatsby-plugin-transition-link`,
