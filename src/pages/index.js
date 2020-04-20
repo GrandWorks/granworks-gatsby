@@ -216,8 +216,8 @@ render(){
                         </div>
                       </div>
 
-                      <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/case-studies/oneplus"} className="button small hide-for-small-only" data-sal="slide-up" data-sal-easing="easeOutCubic">Learn more about GrandWorks</AniLink>
-                      <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/case-studies/oneplus"} className="button small show-for-small-only">Learn more</AniLink>
+                      <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/about"} className="button small hide-for-small-only" data-sal="slide-up" data-sal-easing="easeOutCubic">Learn more about GrandWorks</AniLink>
+                      <AniLink bg="#4D00E3" direction="right" cover duration={0.8} to={"/about"} className="button small show-for-small-only">Learn more</AniLink>
 
                     </div> 
 

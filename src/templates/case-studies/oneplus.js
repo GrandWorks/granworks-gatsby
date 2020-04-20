@@ -12,6 +12,7 @@ import w6 from '../../../static/case-studies/oneplus/w6.jpg'
 import w7 from '../../../static/case-studies/oneplus/w7.jpg'
 import w8 from '../../../static/case-studies/oneplus/w8.jpg'
 import w9 from '../../../static/case-studies/oneplus/w9.jpg'
+import Parallax from 'react-rellax'
 
 class OnePlus extends Component{
     constructor(props)
@@ -74,8 +75,8 @@ render(){
                         </div>
                         <div className="large-6 cell small-order-1 medium-order-1 large-order-2">
                         <div className="intro-image">
-                            <div className="phone-front"></div>
-                            <div className="phone-back"></div>
+                            <Parallax className="phone-front" speed={-2}></Parallax>
+                            <Parallax className="phone-back" speed={2}></Parallax>
                         </div>
                         </div>
                     </div>
@@ -92,17 +93,17 @@ render(){
                     </section>
                     <section id="split-boxes">
                         <div className="grid-x">
-                            <div className="small-6 cell">
+                            <Parallax className="small-6 cell" speed={0}>
                                 <div className="left-wrap">
                                     <img src={splitOne} alt="" />
                                 </div>
-                            </div>
+                            </Parallax>
 
-                            <div className="small-6 cell" >
+                            <Parallax className="small-6 cell" speed={0.5}>
                                 <div className="right-wrap">
                                     <img src={splitTwo} alt="" />
                                 </div>
-                            </div>
+                            </Parallax>
                         </div>
                     </section>
                     <section id="gant-images">
@@ -125,21 +126,21 @@ render(){
                                 </p>
 
                             </div>
-                            <div className="small-4 cell wallpapers">
+                            <Parallax className="small-4 cell wallpapers" speed={0}>
                                 <img src={w1} alt="" />
                                 <img src={w4} alt="" />
                                 <img src={w7} alt="" />
-                            </div>
-                            <div className="small-4 cell wallpapers">
+                            </Parallax>
+                            <Parallax className="small-4 cell wallpapers" speed={0.2}>
                                 <img src={w2} alt="" />
                                 <img src={w5} alt="" />
                                 <img src={w8} alt="" />
-                            </div>
-                            <div className="small-4 cell wallpapers">
+                            </Parallax>
+                            <Parallax className="small-4 cell wallpapers" speed={0.4}>
                                 <img src={w3} alt="" />
                                 <img src={w6} alt="" />
                                 <img src={w9} alt="" />
-                            </div>
+                            </Parallax>
 
 
                             </div>

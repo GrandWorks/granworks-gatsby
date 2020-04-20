@@ -10,7 +10,7 @@ import onBoardingTwo from '../../../static/case-studies/oxygenos/onboarding2.png
 import onBoardingThree from '../../../static/case-studies/oxygenos/onboarding3.png'
 import workLife from '../../../static/case-studies/oxygenos/work-life.jpg'
 import game from '../../../static/case-studies/oxygenos/game.jpg'
-
+import Parallax from 'react-rellax'
 
 class OxygenOs extends React.Component{
     
@@ -74,9 +74,9 @@ class OxygenOs extends React.Component{
                         </div>
                         <div className="large-6 cell small-order-1 medium-order-1 large-order-2">
                         <div className="intro-image">
-                            <div className="layer1" speed="2"></div>
-                            <div className="layer2" speed="-2"></div>
-                            <div className="layer3" speed="-4"></div>
+                            <Parallax className="layer1" speed={2}></Parallax>
+                            <Parallax className="layer2" speed={-2}></Parallax>
+                            <Parallax className="layer3" speed={-4}></Parallax>
                         </div>
                         </div>
                     </div>

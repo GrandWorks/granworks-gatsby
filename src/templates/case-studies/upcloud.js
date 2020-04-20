@@ -7,6 +7,7 @@ import splitOne from '../../../static/case-studies/upcloud/split1.jpg'
 import splitTwo from '../../../static/case-studies/upcloud/split2.jpg'
 import pricing from '../../../static/case-studies/upcloud/pricing.mp4'
 import menu from '../../../static/case-studies/upcloud/menu.mp4'
+import Parallax from 'react-rellax'
 class Upcloud extends React.Component {
 
     constructor(props)
@@ -114,17 +115,17 @@ class Upcloud extends React.Component {
                 </section>
                 <section id="split-boxes">
                     <div class="grid-x">
-                        <div class="small-6 cell">
+                        <Parallax class="small-6 cell" speed={0}>
                             <div class="left-wrap">
                                 <img src={splitOne} alt="" />
                             </div>
-                        </div>
+                        </Parallax>
 
-                        <div class="small-6 cell" >
+                        <Parallax class="small-6 cell" speed={0.5}>
                             <div class="right-wrap">
                                 <img src={splitTwo} alt="" />
                             </div>
-                        </div>
+                        </Parallax>
                     </div>
                 </section>
                 <section id="gant-images">
@@ -143,7 +144,7 @@ class Upcloud extends React.Component {
                             <p>We made sure to implement subtle but effective interaction elements throughout the website to complement the design. For example, when navigating the pricing section, we give users the option to choose between simple and flexible pricing options in an intuitive way.</p>
                             {/* <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/case-studies/upcloud/dummy.png" alt=""> --> */}
 
-                            <video loop autoplay>
+                            <video loop autoPlay muted>
                                 <source src={pricing} type="video/mp4" />
                             </video>
 
@@ -161,7 +162,7 @@ class Upcloud extends React.Component {
                         <div class="medium-12">
                             {/* <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/case-studies/upcloud/screenshot1.jpg" alt=""> --> */}
 
-                            <video loop autoplay>
+                            <video loop autoPlay muted>
                                 <source src={menu} type="video/mp4" />
                             </video>
 

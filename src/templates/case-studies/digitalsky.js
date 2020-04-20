@@ -7,7 +7,7 @@ import droneGIF from '../../../static/case-studies/digitalsky/drone.gif'
 import splitOne from '../../../static/case-studies/digitalsky/split1.png'
 import digitalskyApp from '../../../static/case-studies/digitalsky/digitalsky-app.png'
 import mobileFirst from '../../../static/case-studies/digitalsky/mobile-first.jpg'
-
+import Parallax from 'react-rellax'
 class DigitalSky extends React.Component {
 
     constructor(props)
@@ -124,10 +124,10 @@ render(){
                         </div>
                     </div>
 
-                    <div className="small-6 cell rellax">
+                    <Parallax className="small-6 cell" speed={0.5}>
                         <div className="right-wrap" ref="rightWrap">
                         </div>
-                    </div>
+                    </Parallax>
                 </div>
             </section>
             <section id="gant-images">
