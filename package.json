@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.19.7",
+    "gatsby": "^5.14.1",
     "gatsby-cli": "^2.10.0",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
@@ -18,7 +18,7 @@
     "gatsby-plugin-transition-link": "^1.17.7",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-source-graphql": "^2.1.33",
-    "gatsby-source-wordpress": "^3.2.3",
+    "gatsby-source-wordpress": "^7.14.0",
     "gatsby-transformer-sharp": "^2.3.13",
     "graphql-cli": "^3.0.14",
     "gsap": "^3.1.1",
